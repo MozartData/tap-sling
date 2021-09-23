@@ -10,8 +10,8 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_sling"],
     install_requires=[
-        "singer-python==5.9.0",
-        "requests==2.24.0",
+        "singer-python>=5.9.0",
+        "requests>=2.24.0",
     ],
     extras_require={
         'dev': [
